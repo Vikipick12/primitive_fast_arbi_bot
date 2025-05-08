@@ -18,13 +18,13 @@ This project monitors price discrepancies (arbitrage opportunities) across three
 
 ## 📂 Project Structure
 
-├── main.py # Main async loop for fetching and analysis
-├── parsers.py # Exchange-specific parser classes (e.g. BinanceParser)
-├── check_bin.py # List of Binance trading pairs to include (‼️‼️because Binance API call still returns many pairs that were delisted, this issue exists only with Binance)
-├── prices_binance.json # Fetched raw data (auto-generated)
-├── prices_okx.json  # Fetched raw data (auto-generated)
-├── prices_bybit.json  # Fetched raw data (auto-generated)
-├── arbi_main_file.json # Unified data ready for arbitrage analysis
+- main.py # Main async loop for fetching and analysis
+- parsers.py # Exchange-specific parser classes (e.g. BinanceParser)
+- check_bin.py # List of Binance trading pairs to include (‼️‼️because Binance API call still returns many pairs that were delisted, this issue exists only with Binance)
+- prices_binance.json # Fetched raw data (auto-generated)
+- prices_okx.json  # Fetched raw data (auto-generated)
+- prices_bybit.json  # Fetched raw data (auto-generated)
+- arbi_main_file.json # Unified data ready for arbitrage analysis
 
 
 
