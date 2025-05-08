@@ -2,6 +2,8 @@
 # primitive_fast_arbi_bot
 Arbitrage bot with the usage of asynchronous methods of data fetching
 
+‼️‼️ DISCLAIMER ‼️‼️ this bot is most likely useless in real-world trading due to the use of "last price" prices fetching method. Plus it does not include depth of market and possible token mismatching, the only token confirmation method is ticker name. 
+
 This project monitors price discrepancies (arbitrage opportunities) across three centralized exchanges (**Binance**, **OKX**, and **Bybit**) using their public APIs. It fetches live spot prices (last price), normalizes data into a common format, and identifies profitable trading spreads.
 
 ---
